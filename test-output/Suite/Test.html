@@ -1,0 +1,177 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>8/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Oct 12 08:50:55 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>497 seconds (497765 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.test.SearchProduct.searchProduct()'><b>searchProduct</b><br>Test class: com.test.SearchProduct<br/>
+<a href="#Output-889074285" onClick='toggleBox("Output-889074285", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-889074285" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-889074285">
+Product Have Been Searched Successfully<br/>
+</div>
+</td>
+<td></td>
+<td>59</td>
+<td>com.test.SearchProduct@53aac487</td></tr>
+<tr>
+<td title='com.test.ImageLoadScreenHeight.ImageLoadScreenHeightTest()'><b>ImageLoadScreenHeightTest</b><br>Test class: com.test.ImageLoadScreenHeight<br/>
+<a href="#Output-1829194516" onClick='toggleBox("Output-1829194516", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1829194516" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1829194516">
+Images are loaded and visible till the screen height only<br/>
+</div>
+</td>
+<td></td>
+<td>23</td>
+<td>com.test.ImageLoadScreenHeight@5a45133e</td></tr>
+<tr>
+<td title='com.test.HomepageAndLoadTime.homepageAndLoadTimeTest()'><b>homepageAndLoadTimeTest</b><br>Test class: com.test.HomepageAndLoadTime<br/>
+<a href="#Output-345516674" onClick='toggleBox("Output-345516674", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-345516674" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-345516674">
+Total Time for page load - 77149 milliseconds <br><br/>
+Chrome Invoked and navigated to home page<br/>
+</div>
+</td>
+<td></td>
+<td>77</td>
+<td>com.test.HomepageAndLoadTime@3527942a</td></tr>
+<tr>
+<td title='com.test.PageRefresh.PageRefreshTest()'><b>PageRefreshTest</b><br>Test class: com.test.PageRefresh<br/>
+<a href="#Output-1869652507" onClick='toggleBox("Output-1869652507", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1869652507" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1869652507">
+Total Content Load Time while Scrolling: 47 milliseconds<br/>
+</div>
+</td>
+<td></td>
+<td>53</td>
+<td>com.test.PageRefresh@1ed6388a</td></tr>
+<tr>
+<td title='com.test.Verifyimageload.ImageLoadTest()'><b>ImageLoadTest</b><br>Test class: com.test.Verifyimageload<br/>
+<a href="#Output-131353113" onClick='toggleBox("Output-131353113", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-131353113" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-131353113">
+Image is not present before scrolling<br/>
+Image is present after scrolling<br/>
+</div>
+</td>
+<td></td>
+<td>78</td>
+<td>com.test.Verifyimageload@942a29c</td></tr>
+<tr>
+<td title='com.test.navigatebottom.NavigateBottonTest()'><b>NavigateBottonTest</b><br>Test class: com.test.navigatebottom<br/>
+<a href="#Output-1479800269" onClick='toggleBox("Output-1479800269", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1479800269" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1479800269">
+Navigated to the Bottom of the Page.<br/>
+</div>
+</td>
+<td></td>
+<td>36</td>
+<td>com.test.navigatebottom@242b836</td></tr>
+<tr>
+<td title='com.test.DiffScreenResolution.DiffScreenResolutionTest()'><b>DiffScreenResolutionTest</b><br>Test class: com.test.DiffScreenResolution<br/>
+<a href="#Output-326376794" onClick='toggleBox("Output-326376794", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-326376794" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-326376794">
+Different browsers and screen resolutions render it in the same way.<br/>
+</div>
+</td>
+<td></td>
+<td>59</td>
+<td>com.test.DiffScreenResolution@3f6f6701</td></tr>
+<tr>
+<td title='com.test.CheckScroll.scrollBarTest()'><b>scrollBarTest</b><br>Test class: com.test.CheckScroll<br/>
+<a href="#Output-829082549" onClick='toggleBox("Output-829082549", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-829082549" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-829082549">
+Horizontal Scrollbar not present on page,Vertical Scrollbar is present on page.<br/>
+</div>
+</td>
+<td></td>
+<td>46</td>
+<td>com.test.CheckScroll@534a5a98</td></tr>
+</table><p>
+</body>
+</html>
